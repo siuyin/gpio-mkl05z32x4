@@ -8,8 +8,7 @@
 #ifndef SOURCES_INTERRUPTS_H_
 #define SOURCES_INTERRUPTS_H_
 
-extern volatile unsigned int tick;
-
+volatile unsigned int tick;
 
 
 #endif /* SOURCES_INTERRUPTS_H_ */

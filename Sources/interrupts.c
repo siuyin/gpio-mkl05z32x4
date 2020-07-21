@@ -5,7 +5,8 @@
  *      Author: siuyin
  */
 
-volatile unsigned int tick;
+#include "interrupts.h"
+
 void sysTickISR(void) {
 	tick++;
 }
